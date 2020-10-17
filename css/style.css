@@ -1,0 +1,223 @@
+/* --------------------------- Font Family */
+
+@font-face {
+    font-family: "LeckerliOne-Regular";
+    src: url(../font/LeckerliOne-Regular.ttf);
+}
+
+
+/* --------------------------- */
+
+
+/* --------------------------- Tag */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #1E1E1E;
+}
+
+.upperspacing {
+    height: 3.5rem;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.custom_btn {
+    color: inherit;
+    box-shadow: 0px 0px 0 1px white;
+}
+
+.custom_btn:hover {
+    color: inherit;
+    background-color: #2D2D2D;
+    box-shadow: none
+}
+
+.button-group .custom_btn {
+    margin: 10px 5px;
+}
+
+.button-group .is-checked {
+    box-shadow: none;
+}
+
+
+/* --------------------------- */
+
+
+/* --------------------------- LOGO */
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 2rem;
+    font-size: 2rem;
+    font-family: "LeckerliOne-Regular", Arial, Helvetica, sans-serif;
+}
+
+
+/* --------------------------- */
+
+
+/* --------------------------- Navbar */
+
+header {
+    background-color: #252526a8;
+}
+
+header .navbar {
+    padding: 0px;
+    color: white;
+}
+
+header .navbar .navbar-toggler,
+header .navbar .navbar-nav .nav-link {
+    padding: 0px 15px;
+}
+
+header ul a {
+    line-height: 3.5rem;
+}
+
+header .nav-item {
+    padding: 0px;
+}
+
+header .navbar .navbar-toggler {
+    height: 3.5rem;
+    padding: 1rem 15px;
+}
+
+.collapsed .option_btn {
+    transform: rotate(90deg);
+    transition: 0.2s ease-in-out;
+}
+
+.option_btn {
+    transform: rotate(0deg);
+    transition: 0.2s ease-in-out;
+}
+
+header ul a:hover {
+    box-shadow: 2px 0px white, -2px 0px white;
+    background-color: #2D2D2D;
+}
+
+header .navbar .navbar-nav .active {
+    box-shadow: 2px 0px white, -2px 0px white;
+}
+
+
+/* --------------------------- */
+
+
+/* --------------------------- Banner */
+
+.banner .upperspacing {
+    background-color: black;
+}
+
+.banner h1 {
+    background-color: #35353548;
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 0px 10px;
+    border-radius: 10px;
+}
+
+.banner p {
+    padding: 0px 10px;
+}
+
+.banner .bar {
+    margin: 0px 10px;
+}
+
+.banner .carousel-indicators {
+    bottom: 5%;
+}
+
+.banner .carousel-indicators li {
+    border: 0px;
+}
+
+.banner .dl,
+.banner ol,
+.banner ul {
+    margin: 0px;
+}
+
+.banner .custom {
+    top: 20%;
+}
+
+@media only screen and (max-width: 768px) {
+    .banner h1 {
+        font-size: 1rem;
+    }
+    .banner p {
+        font-size: 0.5rem;
+    }
+}
+
+
+/* --------------------------- */
+
+
+/* --------------------------- Card */
+
+.card_section .content {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card_section .upperspacing {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.card_section .button-group {
+    color: white;
+}
+
+@media only screen and (max-width: 576px) {
+    .card_section .card {
+        max-width: 400px;
+    }
+}
+
+
+/* --------------------------- */
+
+
+/* --------------------------- Form */
+
+.form_section {
+    padding: 20px 0px;
+    color: white;
+    background-color: #222222;
+}
+
+.form_section .form-group {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+
+/* --------------------------- */
